@@ -1,0 +1,20 @@
+import { HeartIcon, ShoppingCartIcon } from "@phosphor-icons/react"
+import React from "react"
+
+const ProductCard = ({id, name, image, price}) => {
+  return (
+    <div id={id} className="rounded-md p-3 relative border border-red-600">
+        <HeartIcon size={25} className="absolute text-gray-400 hover:text-green-900 right-1 top-1 cursor-pointer" weight="fill"/>
+        <img src={image} alt={`image`} className="w-full h-40 md:h-52 object-contain"/>
+        <div className="space-y-2 ">
+            <p>{name} </p>
+            <div className="flex items-center justify-between">
+            <p>${price}</p>
+            <ShoppingCartIcon size={25} className="cursor-pointer hover:text-green-500"/>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default ProductCard

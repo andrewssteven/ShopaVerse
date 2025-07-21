@@ -1,0 +1,2528 @@
+export const products = [
+    //men's wear 
+{
+  "name": "Cotton Casual Hoodie",
+  "category": "Fashion & Style",
+  "subcategory": "Men's Wear",
+  "image": "https://s.alicdn.com/@sc04/kf/H064b2029599f47c995cf3bdf2c07a9aad.png_720x720q50.png",
+  "price": 27800,
+  "color": [{"black":"https://s.alicdn.com/@sc04/kf/H064b2029599f47c995cf3bdf2c07a9aad.png_720x720q50.png", "grey": "https://amircustoms.com/wp-content/uploads/2023/02/full-zip-up-hoodie-fleece-oversized-heavyweight-winter-warm-zip-up-hoodie-puff-printing-zip-up-hoodie4.png", "navy":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1693425766-M02K01-NO_Front_1280x.png?crop=0.826xw:1xh;center,top&resize=980:*"}],
+  "sizes": ["M", "L", "XL", "XXL"],
+  "brand": "HypeLayer",
+  "stock": 52,
+  "productDetails": [
+    "Comfortable and warm casual hoodie",
+    "Adjustable drawstring and front pocket",
+    "Perfect for cold weather or casual outings"
+  ],
+  "productSpecs": [{
+    "sku": "HD-9342MN",
+    "productLine": "Casual Wear",
+    "model": "CozyHood 2025",
+    "weight": 0.7,
+    "color": "grey",
+    "mainMaterial": "Cotton-Polyester Blend",
+    "madeIn": "Pakistan"
+  }],
+  "ratings": 4.8,
+  "reviewsCount": 98,
+  "tags": ["hoodie", "casual", "men"],
+  "isFeatured": false,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "Classic Denim Jacket",
+  "category": "Fashion & Style",
+  "subcategory": "Men's Wear",
+  "image": "https://www.covmm.co.uk/wp-content/uploads/2023/02/unisex-denim-jacket-classic-denim-front-63daa6e9c2b51.png",
+  "price": 25999,
+  "color": ["blue", "black"],
+  "sizes": ["M", "L", "XL"],
+  "brand": "StreetCraft",
+  "stock": 47,
+  "productDetails": [
+    "Durable denim jacket with button closure",
+    "Perfect for casual layering",
+    "Classic cut with chest flap pockets"
+  ],
+  "productSpecs": [{
+    "sku": "JD8594XC-21",
+    "productLine": "Outerwear",
+    "model": "Denim-JK 2025",
+    "weight": 0.9,
+    "color": "blue",
+    "mainMaterial": "100% Denim",
+    "madeIn": "Bangladesh"
+  }],
+  "ratings": 4.4,
+  "reviewsCount": 112,
+  "tags": ["jacket", "denim", "men"],
+  "isFeatured": false,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "Formal White Shirt",
+  "category": "Fashion & Style",
+  "subcategory": "Men's Wear",
+  "image": "https://marineshop.net/wp-content/uploads/sites/3/2022/04/500417-shirt-white-evening-dress-snco-1.png",
+  "price": 18500,
+  "color": ["white"],
+  "sizes": ["S", "M", "L", "XL"],
+  "brand": "Elite Threadz",
+  "stock": 75,
+  "productDetails": [
+    "Crisp cotton formal shirt",
+    "Ideal for business or formal occasions",
+    "Button-down front with slim fit tailoring"
+  ],
+  "productSpecs": [{
+    "sku": "SH22113FD",
+    "productLine": "Formal",
+    "model": "WhiteForm25",
+    "weight": 0.32,
+    "color": "white",
+    "mainMaterial": "Premium Cotton",
+    "madeIn": "India"
+  }],
+  "ratings": 4.7,
+  "reviewsCount": 89,
+  "tags": ["shirt", "formal", "men"],
+  "isFeatured": true,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "Slim Fit Chinos",
+  "category": "Fashion & Style",
+  "subcategory": "Men's Wear",
+  "image": "https://www.jeans.ch/out/pictures/ys_generated/635_762_85__sharp/out/pictures/master/product/1/0400_dockers-men-chinos-khaki-slim-fit-36272-0001_f.png",
+  "price": 21500,
+  "color": ["beige", "olive", "navy"],
+  "sizes": ["M", "L", "XL"],
+  "brand": "ModeCraft",
+  "stock": 64,
+  "productDetails": [
+    "Smart casual slim-fit trousers",
+    "Stretchable fabric for extra comfort",
+    "Two side and back pockets"
+  ],
+  "productSpecs": [{
+    "sku": "CHINOS789M",
+    "productLine": "Bottoms",
+    "model": "SlimChino25",
+    "weight": 0.5,
+    "color": "beige",
+    "mainMaterial": "Cotton-Spandex",
+    "madeIn": "Vietnam"
+  }],
+  "ratings": 4.5,
+  "reviewsCount": 74,
+  "tags": ["chinos", "pants", "men"],
+  "isFeatured": false,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "Graphic Crewneck T-Shirt",
+  "category": "Fashion & Style",
+  "subcategory": "Men's Wear",
+  "image": "https://dainese-cdn.thron.com/delivery/public/image/dainese/12e8047e-9d48-474d-8708-190bc90686b1/px6qct/std/960x960/2018900066_82O_1.png?format=webp&quality=auto-medium",
+  "price": 14500,
+  "color": ["black", "white", "green"],
+  "sizes": ["S", "M", "L"],
+  "brand": "PrintFlex",
+  "stock": 90,
+  "productDetails": [
+    "Vibrant graphic print tee",
+    "Relaxed fit with soft fabric",
+    "Crew neckline for a laid-back look"
+  ],
+  "productSpecs": [{
+    "sku": "TSH-GFX-908B",
+    "productLine": "Graphic Tees",
+    "model": "Urban Ink 2025",
+    "weight": 0.28,
+    "color": "black",
+    "mainMaterial": "Cotton Blend",
+    "madeIn": "China"
+  }],
+  "ratings": 4.3,
+  "reviewsCount": 59,
+  "tags": ["graphic tee", "tshirt", "men"],
+  "isFeatured": true,
+  "dateAdded": "2025-07-19"
+},
+
+// women's wear section
+{
+  "name": "Floral Summer Dress",
+  "category": "Fashion & Style",
+  "subcategory": "Women's Wear",
+  "image": "https://kieljamespatrick.com/cdn/shop/products/Yellow-Spring-Dress-for-Site_250x.png?v=1589221842",
+  "price": 34500,
+  "color": ["pink", "yellow", "white"],
+  "sizes": ["S", "M", "L"],
+  "brand": "BlushBloom",
+  "stock": 60,
+  "productDetails": [
+    "Lightweight and breathable floral dress",
+    "Perfect for summer events and casual outings",
+    "Zipper closure and sleeveless design"
+  ],
+  "productSpecs": [{
+    "sku": "WD-FL2025",
+    "productLine": "Casual Dresses",
+    "model": "SunPetal",
+    "weight": 0.3,
+    "color": "pink",
+    "mainMaterial": "Chiffon",
+    "madeIn": "Italy"
+  }],
+  "ratings": 4.7,
+  "reviewsCount": 112,
+  "tags": ["dress", "summer", "women"],
+  "isFeatured": true,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "Classic Denim Jacket",
+  "category": "Fashion & Style",
+  "subcategory": "Women's Wear",
+  "image": "https://media-cdn.placedestendances.com/image/31/8/7601318.png",
+  "price": 51000,
+  "color": ["blue", "black"],
+  "sizes": ["M", "L", "XL"],
+  "brand": "Urban Femme",
+  "stock": 35,
+  "productDetails": [
+    "Timeless denim jacket with a vintage wash",
+    "Button-down front and chest pockets",
+    "Pairs well with any outfit"
+  ],
+  "productSpecs": [{
+    "sku": "WD-JK1094",
+    "productLine": "Outerwear",
+    "model": "DenimVibe",
+    "weight": 0.9,
+    "color": "blue",
+    "mainMaterial": "Denim",
+    "madeIn": "Turkey"
+  }],
+  "ratings": 4.5,
+  "reviewsCount": 88,
+  "tags": ["jacket", "denim", "women"],
+  "isFeatured": false,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "Elegant Silk Blouse",
+  "category": "Fashion & Style",
+  "subcategory": "Women's Wear",
+  "image": "https://png.pngtree.com/png-clipart/20250202/original/pngtree-stylish-satin-silk-long-sleeve-blouse-png-image_20360250.png",
+  "price": 29800,
+  "color": ["white", "maroon"],
+  "sizes": ["S", "M", "L", "XL"],
+  "brand": "LuxeShe",
+  "stock": 40,
+  "productDetails": [
+    "Premium silk blouse with soft feel",
+    "Round neck and buttoned cuffs",
+    "Perfect for formal or office wear"
+  ],
+  "productSpecs": [{
+    "sku": "WD-BL9832",
+    "productLine": "Office Wear",
+    "model": "LuxeForm",
+    "weight": 0.35,
+    "color": "white",
+    "mainMaterial": "Pure Silk",
+    "madeIn": "India"
+  }],
+  "ratings": 4.9,
+  "reviewsCount": 134,
+  "tags": ["blouse", "formal", "women"],
+  "isFeatured": true,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "High-Waist Palazzo Pants",
+  "category": "Fashion & Style",
+  "subcategory": "Women's Wear",
+  "image": "https://www.layo-g.com/cdn/shop/files/widelegCrimson.png?v=1685136213&width=1445",
+  "price": 32000,
+  "color": ["beige", "olive", "black"],
+  "sizes": ["S", "M", "L", "XL"],
+  "brand": "ElleMuse",
+  "stock": 70,
+  "productDetails": [
+    "Wide-leg palazzo pants with pleats",
+    "High-rise waistband with stretch fit",
+    "Perfect for smart casual looks"
+  ],
+  "productSpecs": [{
+    "sku": "WD-PL0023",
+    "productLine": "Pants & Bottoms",
+    "model": "FlowEase 2025",
+    "weight": 0.4,
+    "color": "beige",
+    "mainMaterial": "Polyester & Spandex",
+    "madeIn": "Vietnam"
+  }],
+  "ratings": 4.6,
+  "reviewsCount": 91,
+  "tags": ["palazzo", "pants", "women"],
+  "isFeatured": false,
+  "dateAdded": "2025-07-19"
+},
+{
+  "name": "Cashmere Wrap Shawl",
+  "category": "Fashion & Style",
+  "subcategory": "Women's Wear",
+  "image": "https://kariannessecret.com//wp-content/uploads/Rose-Gold-burnt.png",
+  "price": 45000,
+  "color": ["cream", "grey", "burgundy"],
+  "sizes": ["Free Size"],
+  "brand": "WarmSilk",
+  "stock": 25,
+  "productDetails": [
+    "Soft and luxurious cashmere shawl",
+    "Ideal for winter warmth or elegant layering",
+    "Lightweight and stylish"
+  ],
+  "productSpecs": [{
+    "sku": "WD-SH2025",
+    "productLine": "Winter Wear",
+    "model": "CashWrap",
+    "weight": 0.25,
+    "color": "cream",
+    "mainMaterial": "100% Cashmere",
+    "madeIn": "Scotland"
+  }],
+  "ratings": 4.8,
+  "reviewsCount": 67,
+  "tags": ["shawl", "winter", "women"],
+  "isFeatured": true,
+  "dateAdded": "2025-07-19"
+},
+
+// footwear section
+{
+    "name": "Men's Classic Leather Loafers",
+    "category": "Fashion & Style",
+    "subcategory": "Footwear",
+    "image": "https://baudoinlange.com/cdn/shop/products/darkbrownFullPlainAligator_Angle_1024x1024.png?v=1683906838",
+    "price": 58500,
+    "color": ["brown", "black"],
+    "sizes": [40, 41, 42, 43, 44],
+    "brand": "StrideMan",
+    "stock": 50,
+    "productDetails": [
+      "Premium full-grain leather loafers",
+      "Slip-on design with cushioned insole",
+      "Elegant choice for formal and casual outfits"
+    ],
+    "productSpecs": [{
+      "sku": "FT-MLOA-001",
+      "productLine": "Men’s Footwear",
+      "model": "ClassicLoafer 2025",
+      "weight": 1.2,
+      "color": "brown",
+      "mainMaterial": "Leather",
+      "madeIn": "Italy"
+    }],
+    "ratings": 4.7,
+    "reviewsCount": 64,
+    "tags": ["loafers", "men", "leather", "footwear"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+},
+{
+    "name": "Women's Ankle Strap Heels",
+    "category": "Fashion & Style",
+    "subcategory": "Footwear",
+    "image": "https://png.pngtree.com/png-clipart/20250210/original/pngtree-rhinestone-adorned-ankle-strap-heels-with-open-toes-png-image_19845985.png",
+    "price": 47000,
+    "color": ["nude", "red", "black"],
+    "sizes": [37, 38, 39, 40, 41],
+    "brand": "FemmeSteps",
+    "stock": 65,
+    "productDetails": [
+      "Elegant heels with ankle strap support",
+      "Comfortable sole with non-slip grip",
+      "Great for formal events or dinner outings"
+    ],
+    "productSpecs": [{
+      "sku": "FT-WAHS-025",
+      "productLine": "Heels & Pumps",
+      "model": "BellaLift",
+      "weight": 0.9,
+      "color": "nude",
+      "mainMaterial": "PU Leather",
+      "madeIn": "Spain"
+    }],
+    "ratings": 4.5,
+    "reviewsCount": 97,
+    "tags": ["heels", "women", "fashion", "footwear"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+},
+{
+    "name": "Unisex White Sneakers",
+    "category": "Fashion & Style",
+    "subcategory": "Footwear",
+    "image": "https://skit.ng/wp-content/uploads/2023/08/BB-MH-Unisex-Trainers-c-skit-store.webp",
+    "price": 37500,
+    "color": ["white"],
+    "sizes": [38, 39, 40, 41, 42, 43],
+    "brand": "WalkX",
+    "stock": 100,
+    "productDetails": [
+      "Versatile white sneakers for everyday wear",
+      "Lightweight and breathable mesh upper",
+      "Shock-absorbing rubber sole"
+    ],
+    "productSpecs": [{
+      "sku": "FT-UNSN-003",
+      "productLine": "Casual Sneakers",
+      "model": "CloudRun",
+      "weight": 0.85,
+      "color": "white",
+      "mainMaterial": "Mesh & Rubber",
+      "madeIn": "Vietnam"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 110,
+    "tags": ["sneakers", "unisex", "casual", "footwear"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+},
+{
+    "name": "Men's Sport Running Shoes",
+    "category": "Fashion & Style",
+    "subcategory": "Footwear",
+    "image": "https://static.vecteezy.com/system/resources/previews/046/323/598/non_2x/pair-of-colorful-sports-shoes-for-active-lifestyle-png.png",
+    "price": 42900,
+    "color": ["blue", "grey"],
+    "sizes": [41, 42, 43, 44],
+    "brand": "ActiveFeet",
+    "stock": 70,
+    "productDetails": [
+      "Durable running shoes with responsive cushioning",
+      "Supportive arch and breathable knit fabric",
+      "Ideal for jogging and gym use"
+    ],
+    "productSpecs": [{
+      "sku": "FT-MRSH-047",
+      "productLine": "Sportswear",
+      "model": "PaceBoost 2.0",
+      "weight": 1.0,
+      "color": "blue",
+      "mainMaterial": "Synthetic Knit",
+      "madeIn": "China"
+    }],
+    "ratings": 4.4,
+    "reviewsCount": 78,
+    "tags": ["running", "shoes", "men", "sports"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+},
+{
+    "name": "Women's Faux Fur Winter Boots",
+    "category": "Fashion & Style",
+    "subcategory": "Footwear",
+    "image": "https://png.pngtree.com/png-vector/20250121/ourmid/pngtree-stylish-faux-fur-trimmed-winter-boots-for-women-png-image_15294363.png",
+    "price": 63000,
+    "color": ["tan", "grey", "black"],
+    "sizes": [37, 38, 39, 40],
+    "brand": "CozyStep",
+    "stock": 40,
+    "productDetails": [
+      "Insulated winter boots with faux fur lining",
+      "Water-resistant outer and rugged sole",
+      "Perfect for cold weather comfort"
+    ],
+    "productSpecs": [{
+      "sku": "FT-WWBT-016",
+      "productLine": "Boots",
+      "model": "SnowCushion",
+      "weight": 1.3,
+      "color": "tan",
+      "mainMaterial": "Synthetic Leather & Faux Fur",
+      "madeIn": "Canada"
+    }],
+    "ratings": 4.8,
+    "reviewsCount": 89,
+    "tags": ["boots", "winter", "women", "footwear"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+},
+
+//   accessories section
+  {
+    "name": "Leather Wristwatch for Men",
+    "category": "Fashion & Style",
+    "subcategory": "Accessories",
+    "image": "https://poedagar.store/wp-content/uploads/2021/09/921-banner.png",
+    "price": 28500,
+    "color": ["black", "brown"],
+    "sizes": ["Adjustable"],
+    "brand": "TimeCraft",
+    "stock": 60,
+    "productDetails": [
+      "Elegant analog wristwatch with genuine leather strap",
+      "Water-resistant up to 30m",
+      "Minimalist design for daily or formal wear"
+    ],
+    "productSpecs": [{
+      "sku": "AC-WATCH-M001",
+      "productLine": "Wrist Accessories",
+      "model": "Timely Elegance 2025",
+      "weight": 0.2,
+      "color": "black",
+      "mainMaterial": "Stainless Steel & Leather",
+      "madeIn": "Switzerland"
+    }],
+    "ratings": 4.5,
+    "reviewsCount": 52,
+    "tags": ["watch", "leather", "men", "accessories"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Women's Oversized Sunglasses",
+    "category": "Fashion & Style",
+    "subcategory": "Accessories",
+    "image": "https://pinkprobeauty.com/cdn/shop/files/845083.png",
+    "price": 18750,
+    "color": ["black", "tortoise"],
+    "sizes": ["One Size"],
+    "brand": "SunMuse",
+    "stock": 75,
+    "productDetails": [
+      "UV400 protection lenses",
+      "Lightweight and durable frames",
+      "Trendy oversized look"
+    ],
+    "productSpecs": [{
+      "sku": "AC-SUNGL-W003",
+      "productLine": "Eyewear",
+      "model": "ChicShade 2025",
+      "weight": 0.15,
+      "color": "tortoise",
+      "mainMaterial": "Plastic & Polycarbonate",
+      "madeIn": "Italy"
+    }],
+    "ratings": 4.7,
+    "reviewsCount": 88,
+    "tags": ["sunglasses", "women", "accessories", "eyewear"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Unisex Canvas Belt",
+    "category": "Fashion & Style",
+    "subcategory": "Accessories",
+    "image": "https://www.vansonleathers.com/176695-large_default/soft-leather-belt.jpg",
+    "price": 9500,
+    "color": ["navy", "grey", "olive"],
+    "sizes": ["M", "L", "XL"],
+    "brand": "GripGear",
+    "stock": 100,
+    "productDetails": [
+      "Durable canvas with metal buckle",
+      "Great for casual outfits",
+      "Adjustable fit and rugged style"
+    ],
+    "productSpecs": [{
+      "sku": "AC-BELT-U007",
+      "productLine": "Belts",
+      "model": "RuggedFlex",
+      "weight": 0.25,
+      "color": "navy",
+      "mainMaterial": "Canvas",
+      "madeIn": "Bangladesh"
+    }],
+    "ratings": 4.3,
+    "reviewsCount": 40,
+    "tags": ["belt", "unisex", "accessories", "canvas"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Women's Mini Handbag",
+    "category": "Fashion & Style",
+    "subcategory": "Accessories",
+    "image": "https://content.stylitics.com/images/items/21137785",
+    "price": 32200,
+    "color": ["pink", "beige", "black"],
+    "sizes": ["One Size"],
+    "brand": "Elegantra",
+    "stock": 45,
+    "productDetails": [
+      "Compact structured handbag for essentials",
+      "Gold-tone hardware and zip closure",
+      "Perfect for both day and night outings"
+    ],
+    "productSpecs": [{
+      "sku": "AC-BAG-W011",
+      "productLine": "Handbags",
+      "model": "MiniCharm 2025",
+      "weight": 0.6,
+      "color": "pink",
+      "mainMaterial": "PU Leather",
+      "madeIn": "Vietnam"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 72,
+    "tags": ["handbag", "women", "fashion", "accessories"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Men's Slim Wallet",
+    "category": "Fashion & Style",
+    "subcategory": "Accessories",
+    "image": "https://png.pngtree.com/png-clipart/20240316/original/pngtree-bifold-real-leather-mens-slim-rfid-wallet-with-money-white-background-png-image_14601833.png",
+    "price": 11800,
+    "color": ["black", "dark brown"],
+    "sizes": ["One Size"],
+    "brand": "VaultLine",
+    "stock": 80,
+    "productDetails": [
+      "Slim design fits in front pocket",
+      "Holds 6 cards and folded bills",
+      "RFID blocking material"
+    ],
+    "productSpecs": [{
+      "sku": "AC-WALLET-M005",
+      "productLine": "Wallets",
+      "model": "SlimGuard 2025",
+      "weight": 0.1,
+      "color": "dark brown",
+      "mainMaterial": "Genuine Leather",
+      "madeIn": "India"
+    }],
+    "ratings": 4.4,
+    "reviewsCount": 56,
+    "tags": ["wallet", "men", "leather", "accessories"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+
+//   Kids Wear Section
+  {
+    "name": "Boys' Cartoon T-Shirt",
+    "category": "Fashion & Style",
+    "subcategory": "Kids Wear",
+    "image": "https://assets.theplace.com/image/upload/t_pdp_img_m,f_auto,q_auto/v1/ecom/assets/products/tcp/3053838/3053838_6B.png",
+    "price": 7200,
+    "color": ["blue", "white"],
+    "sizes": ["2T", "3T", "4T", "5T"],
+    "brand": "TinyTrends",
+    "stock": 60,
+    "productDetails": [
+      "Soft cotton tee with fun cartoon print",
+      "Stretchy neckline for comfort",
+      "Ideal for daily casual wear"
+    ],
+    "productSpecs": [{
+      "sku": "KW-TSHIRT-B001",
+      "productLine": "Boys T-Shirts",
+      "model": "Cartoon Classic 2025",
+      "weight": 0.2,
+      "color": "blue",
+      "mainMaterial": "100% Cotton",
+      "madeIn": "India"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 34,
+    "tags": ["boys", "t-shirt", "cotton", "kids wear"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Girls' Floral Sundress",
+    "category": "Fashion & Style",
+    "subcategory": "Kids Wear",
+    "image": "https://assets.theplace.com/image/upload/t_pdp_img_m,f_auto,q_auto/v1/ecom/assets/products/tcp/3051883/3051883_1671.png",
+    "price": 12850,
+    "color": ["pink", "yellow", "mint"],
+    "sizes": ["2T", "3T", "4T", "5T"],
+    "brand": "DaisyDots",
+    "stock": 45,
+    "productDetails": [
+      "Sleeveless floral dress with bow detail",
+      "Lightweight and breathable",
+      "Perfect for parties and summer outings"
+    ],
+    "productSpecs": [{
+      "sku": "KW-DRESS-G004",
+      "productLine": "Girls Dresses",
+      "model": "BloomTime 2025",
+      "weight": 0.25,
+      "color": "pink",
+      "mainMaterial": "Cotton Blend",
+      "madeIn": "Vietnam"
+    }],
+    "ratings": 4.8,
+    "reviewsCount": 51,
+    "tags": ["girls", "dress", "summer", "kids wear"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Unisex Baby Romper Pack",
+    "category": "Fashion & Style",
+    "subcategory": "Kids Wear",
+    "image": "https://ae01.alicdn.com/kf/H5c20fa57559c464b99dab7f4dd5b2dc0N.png_960x960.png",
+    "price": 15400,
+    "color": ["pastel mix"],
+    "sizes": ["0-3M", "3-6M", "6-9M"],
+    "brand": "SnuggleNest",
+    "stock": 70,
+    "productDetails": [
+      "3-piece soft cotton romper set",
+      "Snap-button closure for easy diaper changes",
+      "Gender-neutral color palette"
+    ],
+    "productSpecs": [{
+      "sku": "KW-ROMPER-U007",
+      "productLine": "Baby Essentials",
+      "model": "SoftSnaps Trio 2025",
+      "weight": 0.4,
+      "color": "pastel mix",
+      "mainMaterial": "Organic Cotton",
+      "madeIn": "China"
+    }],
+    "ratings": 4.7,
+    "reviewsCount": 60,
+    "tags": ["baby", "romper", "unisex", "organic", "kids wear"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Boys' Denim Shorts",
+    "category": "Fashion & Style",
+    "subcategory": "Kids Wear",
+    "image": "https://assets.theplace.com/image/upload/t_plp_img_m,f_auto,q_auto,dpr_1/v1/ecom/assets/products/TCP/3046378/3046378_33DD.png",
+    "price": 9400,
+    "color": ["blue", "dark wash"],
+    "sizes": ["4", "5", "6", "7"],
+    "brand": "MiniMode",
+    "stock": 52,
+    "productDetails": [
+      "Classic 5-pocket style denim shorts",
+      "Adjustable waist for growing kids",
+      "Durable for outdoor play"
+    ],
+    "productSpecs": [{
+      "sku": "KW-SHORTS-B009",
+      "productLine": "Boys Bottoms",
+      "model": "PlayDenim 2025",
+      "weight": 0.35,
+      "color": "dark wash",
+      "mainMaterial": "Denim",
+      "madeIn": "Pakistan"
+    }],
+    "ratings": 4.5,
+    "reviewsCount": 29,
+    "tags": ["boys", "shorts", "denim", "kids wear"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "Girls' Hoodie and Joggers Set",
+    "category": "Fashion & Style",
+    "subcategory": "Kids Wear",
+    "image": "https://assets.theplace.com/image/upload/t_plp_img_m,f_auto,q_auto,dpr_1/v1/ecom/assets/products/TCP/3044487/3044487_1128.png",
+    "price": 19600,
+    "color": ["lavender", "grey", "rose"],
+    "sizes": ["4", "5", "6", "7"],
+    "brand": "CozyKid",
+    "stock": 38,
+    "productDetails": [
+      "Fleece-lined 2-piece set for chilly weather",
+      "Soft elastic cuffs for snug fit",
+      "Fun graphics on hoodie"
+    ],
+    "productSpecs": [{
+      "sku": "KW-SET-G012",
+      "productLine": "Girls Activewear",
+      "model": "WarmFlex 2025",
+      "weight": 0.8,
+      "color": "lavender",
+      "mainMaterial": "Polyester Blend",
+      "madeIn": "Bangladesh"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 43,
+    "tags": ["girls", "hoodie", "joggers", "kids wear"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+
+// Category: Home appliances
+// blenders
+  {
+    "name": "Vortex High-Speed Blender",
+    "category": "Home Appliances",
+    "subcategory": "Blenders",
+    "image": "https://doncent.com.ng/wp-content/uploads/2025/03/QBL-8008_pro4.png",
+    "price": 45400,
+    "color": ["black", "silver"],
+    "sizes": [],
+    "brand": "Vortex",
+    "stock": 42,
+    "productDetails": [
+      "1500W powerful motor with stainless steel blades",
+      "Perfect for smoothies, soups, and nuts",
+      "Durable glass jar with 1.8L capacity"
+    ],
+    "productSpecs": [{
+      "sku": "HA-BLEND-001",
+      "productLine": "Kitchen Blenders",
+      "model": "Vortex X1 2025",
+      "weight": 3.2,
+      "color": "black",
+      "mainMaterial": "Plastic & Glass",
+      "madeIn": "Germany"
+    }],
+    "ratings": 4.8,
+    "reviewsCount": 112,
+    "tags": ["blender", "kitchen", "appliance"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "NutriEase Portable Blender",
+    "category": "Home Appliances",
+    "subcategory": "Blenders",
+    "image": "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=360/da/cms-assets/cms/product/a080a02e-a21e-44f3-814b-461b686e4cf2.png",
+    "price": 16200,
+    "color": ["white", "green"],
+    "sizes": [],
+    "brand": "NutriEase",
+    "stock": 68,
+    "productDetails": [
+      "Rechargeable mini blender with USB port",
+      "500ml BPA-free bottle",
+      "Ideal for travel and office use"
+    ],
+    "productSpecs": [{
+      "sku": "HA-BLEND-002",
+      "productLine": "Portable Blenders",
+      "model": "NutriEase MiniBlend 2025",
+      "weight": 0.9,
+      "color": "green",
+      "mainMaterial": "Plastic",
+      "madeIn": "China"
+    }],
+    "ratings": 4.3,
+    "reviewsCount": 87,
+    "tags": ["portable", "smoothie", "appliance"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+
+// irons
+  {
+    "name": "SmartGlide Steam Iron",
+    "category": "Home Appliances",
+    "subcategory": "Irons",
+    "image": "https://images.philips.com/is/image/philipsconsumer/vrs_664114a58ea5f0e863c05b5770adb475187e9f0f?$pnglarge$&wid=1250",
+    "price": 18500,
+    "color": ["blue", "white"],
+    "sizes": [],
+    "brand": "SmartGlide",
+    "stock": 57,
+    "productDetails": [
+      "High-steam output and non-stick soleplate",
+      "Auto shut-off and anti-drip system",
+      "Ideal for tough wrinkles"
+    ],
+    "productSpecs": [{
+      "sku": "HA-IRON-001",
+      "productLine": "Steam Irons",
+      "model": "SG2400 2025",
+      "weight": 1.2,
+      "color": "blue",
+      "mainMaterial": "Plastic & Metal",
+      "madeIn": "Malaysia"
+    }],
+    "ratings": 4.5,
+    "reviewsCount": 69,
+    "tags": ["iron", "steam", "appliance"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "ClassicDry Electric Dry Iron",
+    "category": "Home Appliances",
+    "subcategory": "Irons",
+    "image": "https://shareefcorner.sa/media/catalog/product/cache/bf85db037af22de949cb7e4b40520ffe/f/u/fujika_lightweight_dry_iron_1200w_ui-dl21sksy_-_black.png",
+    "price": 8900,
+    "color": ["black", "white"],
+    "sizes": [],
+    "brand": "ClassicTech",
+    "stock": 92,
+    "productDetails": [
+      "Heavyweight dry iron with adjustable thermostat",
+      "Durable and long-lasting",
+      "Ceramic soleplate for smooth gliding"
+    ],
+    "productSpecs": [{
+      "sku": "HA-IRON-002",
+      "productLine": "Dry Irons",
+      "model": "ClassicDry 2025",
+      "weight": 1.8,
+      "color": "black",
+      "mainMaterial": "Metal & Ceramic",
+      "madeIn": "India"
+    }],
+    "ratings": 4.1,
+    "reviewsCount": 45,
+    "tags": ["iron", "dry", "appliance"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+
+// fans
+  {
+    "name": "BreezeMax Standing Fan",
+    "category": "Home Appliances",
+    "subcategory": "Fans",
+    "image": "https://vijimall.com/wp-content/uploads/2024/06/IMG_3237-removebg-preview.png",
+    "price": 22500,
+    "color": ["black", "grey"],
+    "sizes": [],
+    "brand": "BreezeMax",
+    "stock": 40,
+    "productDetails": [
+      "18-inch oscillating fan with remote control",
+      "Adjustable height and tilt",
+      "Three speed settings with timer"
+    ],
+    "productSpecs": [{
+      "sku": "HA-FAN-001",
+      "productLine": "Standing Fans",
+      "model": "BM18R 2025",
+      "weight": 4.6,
+      "color": "black",
+      "mainMaterial": "Plastic & Metal",
+      "madeIn": "Vietnam"
+    }],
+    "ratings": 4.4,
+    "reviewsCount": 78,
+    "tags": ["fan", "cooling", "appliance"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "CoolBreeze Rechargeable Fan",
+    "category": "Home Appliances",
+    "subcategory": "Fans",
+    "image": "https://qlinkqasa.com/storage/2024/03/QRF-5918HR.png",
+    "price": 38900,
+    "color": ["white"],
+    "sizes": [],
+    "brand": "CoolBreeze",
+    "stock": 33,
+    "productDetails": [
+      "Rechargeable 16-inch fan with LED light",
+      "Up to 8 hours backup",
+      "Built-in USB charging port"
+    ],
+    "productSpecs": [{
+      "sku": "HA-FAN-002",
+      "productLine": "Rechargeable Fans",
+      "model": "CB16X 2025",
+      "weight": 5.2,
+      "color": "white",
+      "mainMaterial": "Plastic",
+      "madeIn": "China"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 91,
+    "tags": ["fan", "rechargeable", "backup"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+
+// fridges
+  {
+    "name": "FrostGuard Double-Door Fridge 220L",
+    "category": "Home Appliances",
+    "subcategory": "Fridges",
+    "image": "https://www.nexusappliances.com.ng/wp-content/uploads/2020/10/NX-450NFD-Inox-2.png",
+    "price": 195000,
+    "color": ["silver"],
+    "sizes": [],
+    "brand": "FrostGuard",
+    "stock": 15,
+    "productDetails": [
+      "Spacious 220L fridge with fast-freeze option",
+      "Energy-efficient and quiet operation",
+      "Adjustable shelves and LED lighting"
+    ],
+    "productSpecs": [{
+      "sku": "HA-FRIDGE-001",
+      "productLine": "Double Door",
+      "model": "FG220L 2025",
+      "weight": 48,
+      "color": "silver",
+      "mainMaterial": "Metal",
+      "madeIn": "Poland"
+    }],
+    "ratings": 4.7,
+    "reviewsCount": 37,
+    "tags": ["fridge", "cooling", "double door"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "EcoChill Compact Tabletop Fridge 90L",
+    "category": "Home Appliances",
+    "subcategory": "Fridges",
+    "image": "https://hotpoint.co.ke/media/cache/d4/27/d427ff4a0516f8e53a32233bbd3b3e7a.webp",
+    "price": 87400,
+    "color": ["white", "black"],
+    "sizes": [],
+    "brand": "EcoChill",
+    "stock": 24,
+    "productDetails": [
+      "Compact design ideal for offices or hostels",
+      "Low power consumption",
+      "Internal freezer compartment"
+    ],
+    "productSpecs": [{
+      "sku": "HA-FRIDGE-002",
+      "productLine": "Compact Fridges",
+      "model": "EC90T 2025",
+      "weight": 23,
+      "color": "white",
+      "mainMaterial": "Plastic & Metal",
+      "madeIn": "Turkey"
+    }],
+    "ratings": 4.3,
+    "reviewsCount": 53,
+    "tags": ["mini fridge", "cooling", "compact"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+
+// air fryers
+  {
+    "name": "QuickFry Digital Air Fryer 5.5L",
+    "category": "Home Appliances",
+    "subcategory": "Air Fryers",
+    "image": "https://trontronics.lk/wp-content/uploads/2023/10/buy-penguin-2-burner-stainless-steel-gas-cooker-made-in-india-100-percent-stainless-steel-brass-burner-lpg-gas-3.png",
+    "price": 64700,
+    "color": ["black"],
+    "sizes": [],
+    "brand": "QuickFry",
+    "stock": 39,
+    "productDetails": [
+      "5.5L capacity with touchscreen controls",
+      "12 preset cooking modes",
+      "Healthy cooking with less oil"
+    ],
+    "productSpecs": [{
+      "sku": "HA-FRYER-001",
+      "productLine": "Air Fryers",
+      "model": "QF5.5L 2025",
+      "weight": 4.3,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "Korea"
+    }],
+    "ratings": 4.9,
+    "reviewsCount": 89,
+    "tags": ["air fryer", "digital", "cooking"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-19"
+  },
+  {
+    "name": "NutriGold Manual Air Fryer 3.5L",
+    "category": "Home Appliances",
+    "subcategory": "Air Fryers",
+    "image": "https://cdn-img.oraimo.com/fit-in/200x200/KE/product/2024/12/16/OAF-201A-1.png",
+    "price": 39500,
+    "color": ["red", "black"],
+    "sizes": [],
+    "brand": "NutriGold",
+    "stock": 50,
+    "productDetails": [
+      "Manual temperature control",
+      "Dishwasher safe basket",
+      "Compact and stylish design"
+    ],
+    "productSpecs": [{
+      "sku": "HA-FRYER-002",
+      "productLine": "Air Fryers",
+      "model": "NG3.5 2025",
+      "weight": 3.1,
+      "color": "red",
+      "mainMaterial": "Plastic",
+      "madeIn": "Indonesia"
+    }],
+    "ratings": 4.2,
+    "reviewsCount": 60,
+    "tags": ["air fryer", "manual", "kitchen"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-19"
+  },
+
+// phones and tablets section
+// phones
+        {
+          "name": "Z Nova",
+          "category": "Phones & Tablets",
+          "subcategory": "Smartphones",
+          "image": "https://www.gizmochina.com/wp-content/uploads/2024/08/Huawei-Nova-Flip-New-Greenad.png?x70461",
+          "price": 215000,
+          "color": ["black", "white", "blue"],
+          "sizes": ["128GB", "256GB"],
+          "brand": "NovaTech",
+          "stock": 40,
+          "productDetails": [
+            "6.7-inch OLED display",
+            "Triple camera setup with night mode",
+            "Long-lasting battery with fast charging"
+          ],
+          "productSpecs": [
+            {
+              "sku": "PHN-ZNOVA-128",
+              "productLine": "Z Series",
+              "model": "Nova Z 2025",
+              "weight": 0.17,
+              "color": "black",
+              "mainMaterial": "Aluminum + Glass",
+              "madeIn": "South Korea"
+            }
+          ],
+          "ratings": 4.6,
+          "reviewsCount": 137,
+          "tags": ["smartphone", "android", "nova"],
+          "isFeatured": true,
+          "dateAdded": "2025-07-19"
+        },
+        {
+          "name": "Pixel Spark",
+          "category": "Phones & Tablets",
+          "subcategory": "Smartphones",
+          "image": "https://celloplanet.com/wp-content/uploads/2024/11/Pixel-7-Pro.webp",
+          "price": 189500,
+          "color": ["grey", "green", "gold"],
+          "sizes": ["64GB", "128GB"],
+          "brand": "PixelTech",
+          "stock": 35,
+          "productDetails": [
+            "AI-enhanced camera features",
+            "Fast charging and energy efficiency",
+            "Water and dust resistant (IP68)"
+          ],
+          "productSpecs": [
+            {
+              "sku": "PHN-PXSPK-64",
+              "productLine": "Pixel Spark Series",
+              "model": "Spark X 2025",
+              "weight": 0.19,
+              "color": "grey",
+              "mainMaterial": "Metal + Ceramic",
+              "madeIn": "Vietnam"
+            }
+          ],
+          "ratings": 4.4,
+          "reviewsCount": 112,
+          "tags": ["smartphone", "pixel", "android"],
+          "isFeatured": false,
+          "dateAdded": "2025-07-19"
+        },
+// tablets
+        {
+          "name": "Tablet ProTab 11",
+          "category": "Phones & Tablets",
+          "subcategory": "Tablets",
+          "image": "https://p2-ofp.static.pub/fes/cms/2022/08/01/ycumf4z4oia108az0pq0kzvf17wdws486228.png",
+          "price": 305000,
+          "color": ["silver", "grey"],
+          "sizes": ["128GB", "256GB"],
+          "brand": "ProTab",
+          "stock": 27,
+          "productDetails": [
+            "11-inch high-resolution display",
+            "Stylus support and multi-window productivity",
+            "Premium audio and Dolby Atmos support"
+          ],
+          "productSpecs": [
+            {
+              "sku": "TAB-PT11-128",
+              "productLine": "ProTab Series",
+              "model": "ProTab 11 2025",
+              "weight": 0.47,
+              "color": "silver",
+              "mainMaterial": "Metal",
+              "madeIn": "Germany"
+            }
+          ],
+          "ratings": 4.7,
+          "reviewsCount": 89,
+          "tags": ["tablet", "android", "protab"],
+          "isFeatured": true,
+          "dateAdded": "2025-07-19"
+        },
+        {
+          "name": "Kids LearnTab Mini",
+          "category": "Phones & Tablets",
+          "subcategory": "Tablets",
+          "image": "https://sc04.alicdn.com/kf/A37d89ac0cd744710a2a659d977de3174V.png",
+          "price": 68500,
+          "color": ["blue", "pink"],
+          "sizes": ["32GB"],
+          "brand": "LearnTab",
+          "stock": 50,
+          "productDetails": [
+            "Child-safe and educational tablet",
+            "Durable build with parental controls",
+            "Fun games and learning apps pre-installed"
+          ],
+          "productSpecs": [
+            {
+              "sku": "TAB-KIDMINI-32",
+              "productLine": "LearnTab Kids",
+              "model": "LearnTab Mini 2025",
+              "weight": 0.3,
+              "color": "blue",
+              "mainMaterial": "Plastic",
+              "madeIn": "China"
+            }
+          ],
+          "ratings": 4.5,
+          "reviewsCount": 64,
+          "tags": ["tablet", "kids", "learning"],
+          "isFeatured": false,
+          "dateAdded": "2025-07-19"
+        },
+
+// smartwatches
+    {
+      "name": "PulseTrack Smartwatch S2",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartwatches",
+      "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2023/02/apple-watch-se-2-smartwatch.png",
+      "price": 94500,
+      "color": ["black", "silver"],
+      "sizes": ["42mm", "46mm"],
+      "brand": "PulseTrack",
+      "stock": 60,
+      "productDetails": [
+        "Heart rate and sleep monitoring",
+        "Water-resistant up to 50m",
+        "Notifications and fitness tracking"
+      ],
+      "productSpecs": [
+        {
+          "sku": "SMTW-PTS2-42",
+          "productLine": "PulseTrack S",
+          "model": "PulseTrack S2 2025",
+          "weight": 0.05,
+          "color": "black",
+          "mainMaterial": "Stainless Steel",
+          "madeIn": "Taiwan"
+        }
+      ],
+      "ratings": 4.3,
+      "reviewsCount": 78,
+      "tags": ["smartwatch", "fitness", "health"],
+      "isFeatured": true,
+      "dateAdded": "2025-07-19"
+    },
+    {
+      "name": "FitGlow Active Watch",
+      "category": "Phones & Tablets",
+      "subcategory": "Smartwatches",
+      "image": "https://www.reflex-active.com/cdn/shop/collections/MicrosoftTeams-image-_116_1200x1200.png?v=1700141060",
+      "price": 68500,
+      "color": ["rose gold", "white"],
+      "sizes": ["38mm", "42mm"],
+      "brand": "FitGlow",
+      "stock": 45,
+      "productDetails": [
+        "Step and calorie tracker",
+        "Bluetooth and call features",
+        "Customizable watch faces"
+      ],
+      "productSpecs": [
+        {
+          "sku": "SMTW-FGAW-38",
+          "productLine": "FitGlow Active",
+          "model": "FitGlow 2025",
+          "weight": 0.04,
+          "color": "rose gold",
+          "mainMaterial": "Alloy",
+          "madeIn": "India"
+        }
+      ],
+      "ratings": 4.1,
+      "reviewsCount": 54,
+      "tags": ["smartwatch", "fit", "tracker"],
+      "isFeatured": false,
+      "dateAdded": "2025-07-19"
+    },
+
+// chargers
+    {
+      "name": "VoltX Fast Charger 30W",
+      "category": "Phones & Tablets",
+      "subcategory": "Chargers",
+      "image": "https://slot.ng/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/a/p/apple_14_pro_max_charger_one_port.png",
+      "price": 9500,
+      "color": ["white", "black"],
+      "sizes": ["30W"],
+      "brand": "VoltX",
+      "stock": 120,
+      "productDetails": [
+        "Quick Charge 3.0 enabled",
+        "Compatible with most smartphones",
+        "Portable and durable build"
+      ],
+      "productSpecs": [
+        {
+          "sku": "CHRG-VTX30-01",
+          "productLine": "Fast Charge",
+          "model": "VoltX 30W",
+          "weight": 0.07,
+          "color": "white",
+          "mainMaterial": "Polycarbonate",
+          "madeIn": "Malaysia"
+        }
+      ],
+      "ratings": 4.5,
+      "reviewsCount": 96,
+      "tags": ["charger", "fast", "usb-c"],
+      "isFeatured": true,
+      "dateAdded": "2025-07-19"
+    },
+    {
+      "name": "Dual USB Charger Brick",
+      "category": "Phones & Tablets",
+      "subcategory": "Chargers",
+      "image": "https://cdn-img.oraimo.com/fit-in/360x360/EG/product/2024/06/27/M53.png",
+      "price": 6700,
+      "color": ["white"],
+      "sizes": ["20W"],
+      "brand": "ChargePro",
+      "stock": 90,
+      "productDetails": [
+        "Dual USB-A ports",
+        "Universal voltage support",
+        "Built-in surge protection"
+      ],
+      "productSpecs": [
+        {
+          "sku": "CHRG-DUSB-20W",
+          "productLine": "Universal Bricks",
+          "model": "ChargePro 20W",
+          "weight": 0.06,
+          "color": "white",
+          "mainMaterial": "Plastic",
+          "madeIn": "China"
+        }
+      ],
+      "ratings": 4.2,
+      "reviewsCount": 71,
+      "tags": ["charger", "dual port", "universal"],
+      "isFeatured": false,
+      "dateAdded": "2025-07-19"
+    },
+
+// power banks
+    {
+      "name": "PowerPod 20000mAh",
+      "category": "Phones & Tablets",
+      "subcategory": "Power Banks",
+      "image": "https://www.myg.in/images/thumbnails/300/300/detailed/102/51nI8AwdQYL._SL1200_-removebg-preview.png.png",
+      "price": 23500,
+      "color": ["black", "navy"],
+      "sizes": ["20000mAh"],
+      "brand": "PowerPod",
+      "stock": 70,
+      "productDetails": [
+        "Dual output ports",
+        "LED battery indicator",
+        "Safe circuit protection"
+      ],
+      "productSpecs": [
+        {
+          "sku": "PWBK-PPD20K",
+          "productLine": "PowerPod Max",
+          "model": "PP20000",
+          "weight": 0.35,
+          "color": "black",
+          "mainMaterial": "ABS Plastic",
+          "madeIn": "India"
+        }
+      ],
+      "ratings": 4.4,
+      "reviewsCount": 85,
+      "tags": ["power bank", "portable", "charging"],
+      "isFeatured": true,
+      "dateAdded": "2025-07-19"
+    },
+    {
+      "name": "SlimCharge Mini 10000mAh",
+      "category": "Phones & Tablets",
+      "subcategory": "Power Banks",
+      "image": "https://cdn-img.oraimo.com/NG/product/2024/07/01/opb-p5101-black.png",
+      "price": 15700,
+      "color": ["grey", "red"],
+      "sizes": ["10000mAh"],
+      "brand": "SlimCharge",
+      "stock": 88,
+      "productDetails": [
+        "Compact design for travel",
+        "Type-C and USB-A output",
+        "Overvoltage protection"
+      ],
+      "productSpecs": [
+        {
+          "sku": "PWBK-SC10K",
+          "productLine": "SlimCharge Travel",
+          "model": "SC10000",
+          "weight": 0.2,
+          "color": "grey",
+          "mainMaterial": "Aluminum",
+          "madeIn": "China"
+        }
+      ],
+      "ratings": 4.3,
+      "reviewsCount": 73,
+      "tags": ["power bank", "mini", "fast charge"],
+      "isFeatured": false,
+      "dateAdded": "2025-07-19"
+    },
+
+// Health & Beauty Section`
+      {
+        "name": "GlowEssence Vitamin C Serum",
+        "category": "Health & Beauty",
+        "subcategory": "Skincare",
+        "image": "https://shopmamatega.com/cdn/shop/products/810400031722.png?v=1702336141",
+        "price": 7500,
+        "color": ["clear"],
+        "sizes": ["30ml"],
+        "brand": "GlowEssence",
+        "stock": 120,
+        "productDetails": [
+          "Brightens and evens skin tone",
+          "Reduces appearance of dark spots",
+          "Infused with hyaluronic acid"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SKCR-GESC-30",
+            "productLine": "Vitamin C Care",
+            "model": "GlowC 2025",
+            "weight": 0.03,
+            "color": "clear",
+            "mainMaterial": "Serum",
+            "madeIn": "USA"
+          }
+        ],
+        "ratings": 4.6,
+        "reviewsCount": 145,
+        "tags": ["serum", "vitamin c", "skincare"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-19"
+      },
+      {
+        "name": "HydraBloom Moisturizer",
+        "category": "Health & Beauty",
+        "subcategory": "Skincare",
+        "image": "https://www.schoenheitsberatung.de/media/image/a6/44/80/balancing-hidra_box-flat.png",
+        "price": 5600,
+        "color": ["white"],
+        "sizes": ["50ml"],
+        "brand": "HydraBloom",
+        "stock": 95,
+        "productDetails": [
+          "Deep hydration with aloe vera",
+          "Non-greasy texture",
+          "Suitable for all skin types"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SKCR-HBMZ-50",
+            "productLine": "Daily Hydrate",
+            "model": "HBMZ2025",
+            "weight": 0.05,
+            "color": "white",
+            "mainMaterial": "Cream",
+            "madeIn": "Germany"
+          }
+        ],
+        "ratings": 4.4,
+        "reviewsCount": 89,
+        "tags": ["moisturizer", "hydration", "skincare"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-19"
+      },
+
+// Makeup Section
+      {
+        "name": "SilkMatte Liquid Foundation",
+        "category": "Health & Beauty",
+        "subcategory": "Makeup",
+        "image": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/original/flormar/983402/0/_39HyLDb7S-dbqtocVJFt-1.png",
+        "price": 8900,
+        "color": ["light beige", "medium", "dark"],
+        "sizes": ["30ml"],
+        "brand": "SilkMatte",
+        "stock": 100,
+        "productDetails": [
+          "Long-lasting matte finish",
+          "Lightweight and buildable coverage",
+          "Dermatologist tested"
+        ],
+        "productSpecs": [
+          {
+            "sku": "MKUP-SMLF-30",
+            "productLine": "Matte Finish",
+            "model": "SM2025",
+            "weight": 0.03,
+            "color": "light beige",
+            "mainMaterial": "Liquid",
+            "madeIn": "Italy"
+          }
+        ],
+        "ratings": 4.7,
+        "reviewsCount": 130,
+        "tags": ["foundation", "matte", "makeup"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-19"
+      },
+      {
+        "name": "ColorPop Lip Tint Set",
+        "category": "Health & Beauty",
+        "subcategory": "Makeup",
+        "image": "https://media.ulta.com/i/ulta/2616337?w=1600&h=1600&fmt=auto",
+        "price": 5200,
+        "color": ["berry", "nude", "coral"],
+        "sizes": ["3pcs set"],
+        "brand": "ColorPop",
+        "stock": 150,
+        "productDetails": [
+          "Hydrating tint with smooth finish",
+          "Three flattering shades",
+          "Vegan and cruelty-free"
+        ],
+        "productSpecs": [
+          {
+            "sku": "MKUP-CPLT-3S",
+            "productLine": "Lip Essentials",
+            "model": "CPLT2025",
+            "weight": 0.06,
+            "color": "coral",
+            "mainMaterial": "Tint Balm",
+            "madeIn": "South Korea"
+          }
+        ],
+        "ratings": 4.5,
+        "reviewsCount": 92,
+        "tags": ["lip tint", "set", "hydrating"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-19"
+      },
+
+// Grooming Section
+      {
+        "name": "SharpEdge Beard Trimmer Pro",
+        "category": "Health & Beauty",
+        "subcategory": "Grooming",
+        "image": "https://images.philips.com/is/image/philipsconsumer/1b756f670ce04852ac65ae76011ecbc7?wid=309&hei=309&$pnglarge$",
+        "price": 16200,
+        "color": ["black"],
+        "sizes": ["1 unit"],
+        "brand": "SharpEdge",
+        "stock": 75,
+        "productDetails": [
+          "Precision stainless steel blades",
+          "Rechargeable with USB support",
+          "Includes 4 comb attachments"
+        ],
+        "productSpecs": [
+          {
+            "sku": "GRMG-SETP-01",
+            "productLine": "Trimmer Pro",
+            "model": "SE-2025",
+            "weight": 0.3,
+            "color": "black",
+            "mainMaterial": "Metal & Plastic",
+            "madeIn": "Japan"
+          }
+        ],
+        "ratings": 4.6,
+        "reviewsCount": 102,
+        "tags": ["trimmer", "beard", "grooming"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-19"
+      },
+      {
+        "name": "AloeCare Shaving Gel",
+        "category": "Health & Beauty",
+        "subcategory": "Grooming",
+        "image": "https://www.bbassets.com/media/uploads/p/xxl/40345905_2-bombay-shaving-company-intimate-hair-removal-cream-for-men.jpg",
+        "price": 4100,
+        "color": ["blue"],
+        "sizes": ["150ml"],
+        "brand": "AloeCare",
+        "stock": 110,
+        "productDetails": [
+          "Soothing gel with aloe vera",
+          "Protects against razor burns",
+          "Fresh scent"
+        ],
+        "productSpecs": [
+          {
+            "sku": "GRMG-ACSG-150",
+            "productLine": "AloeCare Gel",
+            "model": "ACSG2025",
+            "weight": 0.15,
+            "color": "blue",
+            "mainMaterial": "Gel",
+            "madeIn": "UK"
+          }
+        ],
+        "ratings": 4.3,
+        "reviewsCount": 63,
+        "tags": ["shaving", "gel", "grooming"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-19"
+      },
+
+// Hygiene Products Section
+      {
+        "name": "CleanTouch Antibacterial Wipes",
+        "category": "Health & Beauty",
+        "subcategory": "Hygiene Products",
+        "image": "https://abenaonline.co.uk/cdn/shop/files/ProductImagesshopify_24.png?v=1701964106",
+        "price": 2800,
+        "color": ["white"],
+        "sizes": ["40 sheets"],
+        "brand": "CleanTouch",
+        "stock": 200,
+        "productDetails": [
+          "Kills 99.9% of germs",
+          "Gentle on skin",
+          "Perfect for on-the-go hygiene"
+        ],
+        "productSpecs": [
+          {
+            "sku": "HYGN-CTAW-40",
+            "productLine": "Wipe Clean",
+            "model": "CTAW40",
+            "weight": 0.2,
+            "color": "white",
+            "mainMaterial": "Cloth + Sanitizer",
+            "madeIn": "Singapore"
+          }
+        ],
+        "ratings": 4.4,
+        "reviewsCount": 74,
+        "tags": ["wipes", "antibacterial", "hygiene"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-19"
+      },
+      {
+        "name": "PureShield Hand Sanitizer Gel",
+        "category": "Health & Beauty",
+        "subcategory": "Hygiene Products",
+        "image": "https://bioguardhygiene.in/img/HandGel.png",
+        "price": 3500,
+        "color": ["clear"],
+        "sizes": ["100ml"],
+        "brand": "PureShield",
+        "stock": 180,
+        "productDetails": [
+          "Quick-dry formula",
+          "Contains 70% alcohol",
+          "Travel-friendly pack"
+        ],
+        "productSpecs": [
+          {
+            "sku": "HYGN-PSHS-100",
+            "productLine": "Sanitizer Pro",
+            "model": "PSHS2025",
+            "weight": 0.1,
+            "color": "clear",
+            "mainMaterial": "Alcohol Gel",
+            "madeIn": "Nigeria"
+          }
+        ],
+        "ratings": 4.5,
+        "reviewsCount": 89,
+        "tags": ["sanitizer", "hand", "hygiene"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-19"
+      },
+
+// Supplements Section
+      {
+        "name": "NutriMax Multivitamin Complex",
+        "category": "Health & Beauty",
+        "subcategory": "Supplements",
+        "image": "https://primalharvest.es/cdn/shop/files/PH_DE_Multivitamin-Complex_TV-5_mockup_2.png?v=1744857502&width=2500",
+        "price": 12200,
+        "color": ["orange"],
+        "sizes": ["60 capsules"],
+        "brand": "NutriMax",
+        "stock": 130,
+        "productDetails": [
+          "Daily essential vitamins",
+          "Supports immunity & energy",
+          "Formulated for adults"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SUPP-NMMC-60",
+            "productLine": "Wellness Core",
+            "model": "NMMC2025",
+            "weight": 0.12,
+            "color": "orange",
+            "mainMaterial": "Capsules",
+            "madeIn": "USA"
+          }
+        ],
+        "ratings": 4.7,
+        "reviewsCount": 110,
+        "tags": ["multivitamin", "energy", "supplement"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-19"
+      },
+      {
+        "name": "BioFlex Joint Support Gummies",
+        "category": "Health & Beauty",
+        "subcategory": "Supplements",
+        "image": "https://i5.walmartimages.com/seo/Qunol-Turmeric-Gummies-500mg-Ultra-High-Absorption-Joint-Support-Herbal-Supplement-60-Count_34ff8d1e-2c2c-4fb7-bfa2-3bdccf528962.54cf251897dc5b18c91f95b4940e56c1.png",
+        "price": 9800,
+        "color": ["blue"],
+        "sizes": ["30 gummies"],
+        "brand": "BioFlex",
+        "stock": 85,
+        "productDetails": [
+          "Promotes healthy joints",
+          "Tasty blueberry flavor",
+          "With glucosamine & collagen"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SUPP-BFJS-30",
+            "productLine": "Flex Essentials",
+            "model": "BFJS2025",
+            "weight": 0.2,
+            "color": "blue",
+            "mainMaterial": "Gummies",
+            "madeIn": "Canada"
+          }
+        ],
+        "ratings": 4.4,
+        "reviewsCount": 67,
+        "tags": ["joint", "gummies", "supplement"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-19"
+      },
+
+// electronic and computer accessories section
+// printers
+  {
+    "name": "HP DeskJet 2710 All-in-One Printer",
+    "category": "Electronics & Computing",
+    "subcategory": "Printers",
+    "image": "https://crdms.images.consumerreports.org/f_auto,w_1200/prod/products/cr/models/408346-all-in-one-inkjet-printers-hp-deskjet-2734e-10033932.png",
+    "price": 71500,
+    "color": ["white"],
+    "brand": "HP",
+    "stock": 45,
+    "productDetails": [
+      "All-in-one printer: print, scan, and copy",
+      "Wireless printing with smartphone support",
+      "Compact and energy efficient"
+    ],
+    "productSpecs": [{
+      "sku": "PRN-HP-2710",
+      "productLine": "HP DeskJet",
+      "model": "2710",
+      "weight": 3.42,
+      "color": "white",
+      "mainMaterial": "Plastic",
+      "madeIn": "Vietnam"
+    }],
+    "ratings": 4.4,
+    "reviewsCount": 68,
+    "tags": ["printer", "HP", "wireless"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-20"
+  },
+  {
+    "name": "Canon PIXMA TS207 Inkjet Printer",
+    "category": "Electronics & Computing",
+    "subcategory": "Printers",
+    "image": "https://ph.canon/media/image/2018/07/15/c6ad1db8cc8e4ea881b4502c2ecb2edd_PIXMA+TS207_3.png",
+    "price": 59000,
+    "color": ["black"],
+    "brand": "Canon",
+    "stock": 34,
+    "productDetails": [
+      "Compact and affordable single function printer",
+      "Fine cartridge for sharp document printing",
+      "Smudge-resistant, borderless prints"
+    ],
+    "productSpecs": [{
+      "sku": "PRN-CN-TS207",
+      "productLine": "PIXMA",
+      "model": "TS207",
+      "weight": 2.5,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "Japan"
+    }],
+    "ratings": 4.2,
+    "reviewsCount": 53,
+    "tags": ["printer", "Canon", "inkjet"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-20"
+  },
+
+// routers
+  {
+    "name": "TP-Link Archer C6 AC1200 Router",
+    "category": "Electronics & Computing",
+    "subcategory": "Routers",
+    "image": "https://www.tp-link.com/us/user-guides/Archer-A6&C6_V2/Chapter_1_Get_to_Know_about_Your_Router-web-resources/image/Archer_C6(EU)2.0_A.png",
+    "price": 36500,
+    "color": ["black"],
+    "brand": "TP-Link",
+    "stock": 61,
+    "productDetails": [
+      "Dual band Wi-Fi speeds up to 1200 Mbps",
+      "4 external antennas for stable coverage",
+      "MU-MIMO technology for efficient data transfer"
+    ],
+    "productSpecs": [{
+      "sku": "RTR-TPL-C6",
+      "productLine": "Archer",
+      "model": "C6",
+      "weight": 0.95,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "China"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 101,
+    "tags": ["router", "TP-Link", "WiFi"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-20"
+  },
+  {
+    "name": "D-Link DIR-615 Wireless N Router",
+    "category": "Electronics & Computing",
+    "subcategory": "Routers",
+    "image": "https://www.dlink.com/uk/en/-/media/product-pages/dir/615/dir615h2imagelfrontgb.png",
+    "price": 28900,
+    "color": ["black"],
+    "brand": "D-Link",
+    "stock": 50,
+    "productDetails": [
+      "Fast wireless N300 performance",
+      "Two antennas for wide coverage",
+      "WPA/WPA2 encryption for secure connections"
+    ],
+    "productSpecs": [{
+      "sku": "RTR-DLK-615",
+      "productLine": "DIR Series",
+      "model": "615",
+      "weight": 0.7,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "India"
+    }],
+    "ratings": 4.3,
+    "reviewsCount": 77,
+    "tags": ["router", "D-Link", "network"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-20"
+  },
+
+// PC accessories
+  {
+    "name": "Logitech MK270 Wireless Keyboard & Mouse",
+    "category": "Electronics & Computing",
+    "subcategory": "PC Accessories",
+    "image": "https://foreteconline.com/magento/uploads/2024/10/logitech-slim-combo-mk470-wireless-keyboard-and-mouse_1.png",
+    "price": 24300,
+    "color": ["black"],
+    "brand": "Logitech",
+    "stock": 90,
+    "productDetails": [
+      "Full-size keyboard and compact mouse",
+      "2.4GHz wireless connectivity",
+      "Long battery life"
+    ],
+    "productSpecs": [{
+      "sku": "ACC-LG-MK270",
+      "productLine": "MK Series",
+      "model": "MK270",
+      "weight": 0.6,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "China"
+    }],
+    "ratings": 4.7,
+    "reviewsCount": 124,
+    "tags": ["keyboard", "mouse", "wireless"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-20"
+  },
+  {
+    "name": "HP X1000 Wired Mouse",
+    "category": "Electronics & Computing",
+    "subcategory": "PC Accessories",
+    "image": "https://ptsjaipur.com/public/uploads/all/MhGzIWsNOV61cGXld5Lg9HViLJBO7mbDrj1sxKWH.png",
+    "price": 5500,
+    "color": ["black"],
+    "brand": "HP",
+    "stock": 150,
+    "productDetails": [
+      "Simple wired mouse with USB connection",
+      "Optical tracking and 3-button control",
+      "Plug-and-play convenience"
+    ],
+    "productSpecs": [{
+      "sku": "ACC-HP-X1000",
+      "productLine": "HP Accessories",
+      "model": "X1000",
+      "weight": 0.15,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "China"
+    }],
+    "ratings": 4.4,
+    "reviewsCount": 200,
+    "tags": ["mouse", "wired", "HP"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-20"
+  },
+
+// storage devices
+  {
+    "name": "SanDisk 64GB Ultra USB 3.0 Flash Drive",
+    "category": "Electronics & Computing",
+    "subcategory": "Storage Devices",
+    "image": "https://www.picstop.co.uk/user/products/large/ultra_flair_1_1.png",
+    "price": 8500,
+    "color": ["black", "red"],
+    "brand": "SanDisk",
+    "stock": 300,
+    "productDetails": [
+      "High-speed USB 3.0 performance",
+      "Retractable design",
+      "Compatible with USB 3.0 and 2.0"
+    ],
+    "productSpecs": [{
+      "sku": "STRG-SD-64U3",
+      "productLine": "Ultra",
+      "model": "64GB USB 3.0",
+      "weight": 0.02,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "Malaysia"
+    }],
+    "ratings": 4.8,
+    "reviewsCount": 540,
+    "tags": ["USB", "storage", "flash drive"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-20"
+  },
+  {
+    "name": "Seagate Expansion 1TB External HDD",
+    "category": "Electronics & Computing",
+    "subcategory": "Storage Devices",
+    "image": "https://nonsmanonline.com/wp-content/uploads/2023/10/seagate-one-touch-ssd-black-hero-right.png",
+    "price": 33500,
+    "color": ["black"],
+    "brand": "Seagate",
+    "stock": 78,
+    "productDetails": [
+      "1TB external hard drive with USB 3.0",
+      "Drag and drop file saving",
+      "Compatible with Windows and Mac"
+    ],
+    "productSpecs": [{
+      "sku": "STRG-SG-1TB",
+      "productLine": "Expansion",
+      "model": "1TB USB 3.0",
+      "weight": 0.17,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "Thailand"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 420,
+    "tags": ["HDD", "external drive", "Seagate"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-20"
+  },
+
+// laptops and monitors
+  {
+    "name": "Lenovo IdeaPad 3 15.6'' Laptop",
+    "category": "Electronics & Computing",
+    "subcategory": "Laptops",
+    "image": "https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MzAzNDQ1fGltYWdlL3BuZ3xoNjYvaDY2LzEwNzU3MjQxNTAzNzc0LnBuZ3xjMzU3NWY4OGEyYjYzYTEwOGFlYzhiNWJhODEwYzA1MTlkNDYxODI3ZGQxM2IzYTRhYmY4M2YzY2NjYjhhOGJj/lenovo-laptop-ideapad-3-15-intel-hero.png",
+    "price": 225000,
+    "color": ["platinum grey"],
+    "brand": "Lenovo",
+    "stock": 25,
+    "productDetails": [
+      "15.6'' HD screen, Intel Core i3, 8GB RAM, 256GB SSD",
+      "Windows 11 pre-installed",
+      "Slim and portable design"
+    ],
+    "productSpecs": [{
+      "sku": "LTP-LNV-IP3",
+      "productLine": "IdeaPad",
+      "model": "3",
+      "weight": 1.65,
+      "color": "platinum grey",
+      "mainMaterial": "Aluminum/Plastic",
+      "madeIn": "China"
+    }],
+    "ratings": 4.5,
+    "reviewsCount": 87,
+    "tags": ["laptop", "Lenovo", "Windows"],
+    "isFeatured": true,
+    "dateAdded": "2025-07-20"
+  },
+  {
+    "name": "Dell 24'' Full HD Monitor (SE2422HX)",
+    "category": "Electronics & Computing",
+    "subcategory": "Monitors",
+    "image": "https://img.evetech.co.za/repository/components/dell-se2422h-24-monitor-600px-v1-01.webp",
+    "price": 95000,
+    "color": ["black"],
+    "brand": "Dell",
+    "stock": 40,
+    "productDetails": [
+      "24'' Full HD (1920 x 1080) display",
+      "HDMI and VGA connectivity",
+      "Tilt adjustable stand"
+    ],
+    "productSpecs": [{
+      "sku": "MON-DEL-2422HX",
+      "productLine": "Dell SE Series",
+      "model": "SE2422HX",
+      "weight": 3.8,
+      "color": "black",
+      "mainMaterial": "Plastic",
+      "madeIn": "Mexico"
+    }],
+    "ratings": 4.6,
+    "reviewsCount": 102,
+    "tags": ["monitor", "Dell", "Full HD"],
+    "isFeatured": false,
+    "dateAdded": "2025-07-20"
+  },
+  {
+  "name": "Apple MacBook Air M2 (2024)",
+  "category": "Electronics & Computing",
+  "subcategory": "Laptops",
+  "image": "https://qskinz.com/cdn/shop/products/03Softpink_f63a3bda-ccac-4af0-b8da-9b3ac5f9514e.png?v=1667573576",
+  "price": 1259999,
+  "color": ["Silver", "Space Gray", "Midnight"],
+  "sizes": ["13.6-inch"],
+  "brand": "Apple",
+  "stock": 35,
+  "productDetails": [
+    "Apple M2 chip with 8-core CPU and 10-core GPU",
+    "Up to 18 hours of battery life",
+    "13.6-inch Liquid Retina display with True Tone"
+  ],
+  "productSpecs": [
+    {
+      "sku": "MACBKAIR-M2-2024",
+      "productLine": "MacBook",
+      "model": "Air M2",
+      "weight": 1.24,
+      "color": "Space Gray",
+      "mainMaterial": "Aluminum",
+      "madeIn": "China"
+    }
+  ],
+  "ratings": 4.9,
+  "reviewsCount": 200,
+  "tags": ["macbook", "apple", "laptop", "electronics"],
+  "isFeatured": true,
+  "dateAdded": "2025-07-20"
+},
+
+// Sports & Outdoors Section
+      {
+        "name": "Premium Rollable Yoga Mat",
+        "category": "Sports & Outdoors",
+        "subcategory": "Yoga Mats",
+        "image": "https://www.ironclan.co.uk/wp-content/uploads/2022/05/IMG_0817.png",
+        "price": 12500,
+        "color": ["purple"],
+        "sizes": ["183 cm x 61 cm"],
+        "brand": "FlexZen",
+        "stock": 85,
+        "productDetails": [
+          "Eco‑friendly TPE material",
+          "Extra thickness for comfort",
+          "Non‑slip textured surface"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-YM-PURP1",
+            "productLine": "FlexZen Pro",
+            "model": "FZ-MAT-2025",
+            "weight": 1.2,
+            "color": "purple",
+            "mainMaterial": "TPE",
+            "madeIn": "China"
+          }
+        ],
+        "ratings": 4.8,
+        "reviewsCount": 102,
+        "tags": ["yoga", "mat", "fitness"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-20"
+      },
+      {
+        "name": "Eco Roll Yoga Mat",
+        "category": "Sports & Outdoors",
+        "subcategory": "Yoga Mats",
+        "image": "https://www.dormiente.com/wp-content/uploads/2023/02/yoga-matte.png",
+        "price": 9800,
+        "color": ["mint"],
+        "sizes": ["180 cm x 60 cm"],
+        "brand": "GreenFlow",
+        "stock": 60,
+        "productDetails": [
+          "Lightweight yet durable",
+          "Water‑resistant surface",
+          "Great for hot yoga"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-YM-MINT1",
+            "productLine": "GreenFlow Eco",
+            "model": "GF-MAT-2025",
+            "weight": 1.0,
+            "color": "mint",
+            "mainMaterial": "Recycled PVC",
+            "madeIn": "India"
+          }
+        ],
+        "ratings": 4.5,
+        "reviewsCount": 74,
+        "tags": ["yoga", "eco", "mat"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-20"
+      },
+
+// bikes
+      {
+        "name": "TrailMaster Mountain Bike",
+        "category": "Sports & Outdoors",
+        "subcategory": "Bikes",
+        "image": "https://www.fujibikes.com/cdn/shop/products/2022_FUJI_RAKAN_29_17_MATTE_SMOKEDSILVER_FRONT.png?v=1741037445",
+        "price": 195000,
+        "color": ["blue"],
+        "sizes": ["26\"", "27.5\"", "29\""],
+        "brand": "TrailMaster",
+        "stock": 22,
+        "productDetails": [
+          "Lightweight aluminum frame",
+          "21‑speed Shimano gears",
+          "Front suspension fork"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-BIKE-TMM26",
+            "productLine": "TrailMaster Series",
+            "model": "TM26 2025",
+            "weight": 14.5,
+            "color": "blue",
+            "mainMaterial": "Aluminum",
+            "madeIn": "Vietnam"
+          }
+        ],
+        "ratings": 4.6,
+        "reviewsCount": 58,
+        "tags": ["bike", "mountain", "outdoor"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-20"
+      },
+      {
+        "name": "Urban Cruiser Hybrid Bike",
+        "category": "Sports & Outdoors",
+        "subcategory": "Bikes",
+        "image": "https://www.schwinnbikes.com/cdn/shop/files/S2782G_700M_GTX1-GRN_ATF01_faa8c0a0-11e3-4604-8e93-d606976df86f.png?v=1750776537",
+        "price": 165000,
+        "color": ["matte black"],
+        "sizes": ["26\"", "28\""],
+        "brand": "CityCruise",
+        "stock": 30,
+        "productDetails": [
+          "Comfort handlebars & spring seat",
+          "Hybrid tires for city roads",
+          "Rear rack included"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-BIKE-UC28",
+            "productLine": "CityCruise",
+            "model": "UC28 2025",
+            "weight": 13.2,
+            "color": "matte black",
+            "mainMaterial": "Steel",
+            "madeIn": "China"
+          }
+        ],
+        "ratings": 4.3,
+        "reviewsCount": 39,
+        "tags": ["bike", "urban", "cruiser"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-20"
+      },
+
+// water bottles
+      {
+        "name": "HydraPure Tritan Water Bottle",
+        "category": "Sports & Outdoors",
+        "subcategory": "Water Bottles",
+        "image": "https://takeyausa.com/cdn/shop/files/51476-Tritan-Spout-18-2pk-BreezyBlue-StormyBlack-Front_1.png?v=1684952659",
+        "price": 4200,
+        "color": ["blue"],
+        "sizes": ["750ml"],
+        "brand": "HydraPure",
+        "stock": 150,
+        "productDetails": [
+          "BPA‑free Tritan plastic",
+          "Leak‑proof flip cap",
+          "Easy‑clean wide mouth"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-WB-HBT75",
+            "productLine": "HydraPure Series",
+            "model": "HBT75 2025",
+            "weight": 0.2,
+            "color": "blue",
+            "mainMaterial": "Tritan Plastic",
+            "madeIn": "USA"
+          }
+        ],
+        "ratings": 4.7,
+        "reviewsCount": 145,
+        "tags": ["water bottle", "hydration", "sports"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-20"
+      },
+      {
+        "name": "Insulated Steel Sport Bottle",
+        "category": "Sports & Outdoors",
+        "subcategory": "Water Bottles",
+        "image": "https://i5.walmartimages.com/seo/Coldest-Sports-Water-Bottle-Straw-Lid-Handle-Leak-Proof-Vacuum-Insulated-Stainless-Steel-Double-Walled-Thermo-Mug-Tumbler-21-oz-Solar-Yellow_82bf7b31-daca-48e4-bb17-4fe65e029079.30c6cd2452a7b016a6864fb1482946de.png",
+        "price": 6500,
+        "color": ["silver"],
+        "sizes": ["1L"],
+        "brand": "SteelTone",
+        "stock": 75,
+        "productDetails": [
+          "Double‑wall insulation keeps drinks cold",
+          "Sport cap with spout",
+          "Durable stainless steel"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-WB-SIL1",
+            "productLine": "SteelTone Insulated",
+            "model": "ST1L 2025",
+            "weight": 0.35,
+            "color": "silver",
+            "mainMaterial": "Stainless Steel",
+            "madeIn": "China"
+          }
+        ],
+        "ratings": 4.5,
+        "reviewsCount": 82,
+        "tags": ["water bottle", "insulated", "sports"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-20"
+      },
+
+// Gym Gear Section
+      {
+        "name": "Pro Hex Dumbbell 10kg",
+        "category": "Sports & Outdoors",
+        "subcategory": "Gym Gear",
+        "image": "https://i5.walmartimages.com/seo/Lifeline-550-lb-Pro-Round-Dumbbell-Set-550-lb-Set_95895cd3-d3d1-481e-8317-8801dd718647.b93d482e027f7fc1e2df3a96b528d6d2.png",
+        "price": 15500,
+        "color": ["black"],
+        "sizes": ["10kg"],
+        "brand": "PowerHex",
+        "stock": 50,
+        "productDetails": [
+          "Durable cast iron with vinyl coating",
+          "Hex design prevents rolling",
+          "Ergonomic knurled handle"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-GEAR-D10",
+            "productLine": "Pro Hex",
+            "model": "PH10KG",
+            "weight": 10,
+            "color": "black",
+            "mainMaterial": "Cast Iron",
+            "madeIn": "China"
+          }
+        ],
+        "ratings": 4.7,
+        "reviewsCount": 120,
+        "tags": ["dumbbell", "gym equipment", "hex"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-20"
+      },
+      {
+        "name": "Adjustable Kettlebell 16kg",
+        "category": "Sports & Outdoors",
+        "subcategory": "Gym Gear",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/pesa-kettlebell-1641553208.png?resize=980:*",
+        "price": 18500,
+        "color": ["black"],
+        "sizes": ["16kg"],
+        "brand": "KettleFlex",
+        "stock": 30,
+        "productDetails": [
+          "Cast iron kettlebell with adjustable plates",
+          "Comfort grip handle",
+          "Perfect for kettlebell swings and workouts"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-GEAR-K16",
+            "productLine": "Flex Kettle",
+            "model": "KF16KG",
+            "weight": 16,
+            "color": "black",
+            "mainMaterial": "Cast Iron",
+            "madeIn": "India"
+          }
+        ],
+        "ratings": 4.5,
+        "reviewsCount": 89,
+        "tags": ["kettlebell", "gym", "adjustable"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-20"
+      },
+
+// Sportswear Section
+      {
+        "name": "Men's Performance Running Shorts",
+        "category": "Sports & Outdoors",
+        "subcategory": "Sportswear",
+        "image": "https://www.cepsports.com/media/catalog/product/cache/f41ba322f84512e80819d6a473f942c1/t/h/the-run-shorts-2in1-black-w4175t-m-back.png",
+        "price": 8200,
+        "color": ["black", "navy"],
+        "sizes": ["M", "L", "XL"],
+        "brand": "RunPro",
+        "stock": 75,
+        "productDetails": [
+          "Moisture-wicking fabric",
+          "Built-in liner and side pockets",
+          "Reflective accents for night runs"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-SWR-RS01",
+            "productLine": "RunPro Performance",
+            "model": "RS01",
+            "weight": 0.15,
+            "color": "black",
+            "mainMaterial": "Polyester",
+            "madeIn": "Vietnam"
+          }
+        ],
+        "ratings": 4.6,
+        "reviewsCount": 58,
+        "tags": ["running", "shorts", "sportswear"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-20"
+      },
+      {
+        "name": "Women's Performance Tee",
+        "category": "Sports & Outdoors",
+        "subcategory": "Sportswear",
+        "image": "https://www.kuiu.com/cdn/shop/files/24829-WomenAviationTShirt-MG-FrontMannequin-WomensTee-2024.png?v=1727823709",
+        "price": 6500,
+        "color": ["grey", "pink"],
+        "sizes": ["S", "M", "L"],
+        "brand": "ActiveWear",
+        "stock": 80,
+        "productDetails": [
+          "Breathable and quick-dry material",
+          "Flat seams to reduce chafing",
+          "Feminine fit with reflective logo"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-SWR-WT02",
+            "productLine": "Active Series",
+            "model": "WT02",
+            "weight": 0.1,
+            "color": "grey",
+            "mainMaterial": "Polyester Blend",
+            "madeIn": "Bangladesh"
+          }
+        ],
+        "ratings": 4.5,
+        "reviewsCount": 73,
+        "tags": ["tee", "women", "sportswear"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-20"
+      },
+
+// Fitness Trackers Section
+      {
+        "name": "FitBand X Pro Tracker",
+        "category": "Sports & Outdoors",
+        "subcategory": "Fitness Trackers",
+        "image": "https://static1.pocketnowimages.com/wordpress/wp-content/uploads/styles/xxlarge/public/2022-04/PBI%20Fitbit%20Charge%205%20Black.png",
+        "price": 38500,
+        "color": ["black"],
+        "sizes": ["One Size"],
+        "brand": "FitBand",
+        "stock": 60,
+        "productDetails": [
+          "Heart-rate & sleep monitoring",
+          "Smart notifications and step counter",
+          "Water-resistant up to IP68"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-FT-FBXP",
+            "productLine": "FitBand X",
+            "model": "FBXPro2025",
+            "weight": 0.025,
+            "color": "black",
+            "mainMaterial": "Silicone Strap",
+            "madeIn": "Taiwan"
+          }
+        ],
+        "ratings": 4.4,
+        "reviewsCount": 90,
+        "tags": ["fitness", "tracker", "band"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-20"
+      },
+      {
+        "name": "AirTrack Lite Fitness Tracker",
+        "category": "Sports & Outdoors",
+        "subcategory": "Fitness Trackers",
+        "image": "https://gymplay.eu/wp-content/uploads/2018/11/H10-airtrack-trainer-xl-kit.png",
+        "price": 27000,
+        "color": ["white"],
+        "sizes": ["One Size"],
+        "brand": "AirTrack",
+        "stock": 55,
+        "productDetails": [
+          "Tracks steps, calories & sleep",
+          "OLED display and USB charging",
+          "Lightweight and comfortable for daily wear"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-FT-ATRK",
+            "productLine": "AirTrack Lite",
+            "model": "ATLite",
+            "weight": 0.02,
+            "color": "white",
+            "mainMaterial": "Plastic",
+            "madeIn": "China"
+          }
+        ],
+        "ratings": 4.2,
+        "reviewsCount": 48,
+        "tags": ["fitness", "tracker", "lightweight"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-20"
+      },
+
+// Camping Items Section
+      {
+        "name": "Pop-Up Camping Tent",
+        "category": "Sports & Outdoors",
+        "subcategory": "Camping Items",
+        "image": "https://cdn.shopify.com/s/files/1/0366/1889/5405/files/product-desktop-new.png?v=1718011968",
+        "price": 84500,
+        "color": ["green"],
+        "brand": "CampEase",
+        "stock": 20,
+        "productDetails": [
+          "Easy pop-up setup for 3 people",
+          "Waterproof with sealed seams",
+          "Ventilated roof and groundsheet"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-CAMP-TENT3",
+            "productLine": "CampEase PopUp",
+            "model": "CE3P2025",
+            "weight": 3.2,
+            "color": "green",
+            "mainMaterial": "Polyester",
+            "madeIn": "Bangladesh"
+          }
+        ],
+        "ratings": 4.6,
+        "reviewsCount": 35,
+        "tags": ["tent", "camping", "outdoor"],
+        "isFeatured": true,
+        "dateAdded": "2025-07-20"
+      },
+      {
+        "name": "Foldable Camping Chair",
+        "category": "Sports & Outdoors",
+        "subcategory": "Camping Items",
+        "image": "https://www.zempire.co.uk/pub/media/catalog/product/cache/86e8fdb3ab2768d5ec1a2152312ef4fe/s/t/stargazer_0150907-220_hero_ss22b_1.png",
+        "price": 9500,
+        "color": ["navy"],
+        "brand": "CampSit",
+        "stock": 45,
+        "productDetails": [
+          "Lightweight aluminum frame",
+          "Cup holder and carry bag included",
+          "Compact foldable design"
+        ],
+        "productSpecs": [
+          {
+            "sku": "SPRT-CAMP-CHAIR1",
+            "productLine": "CampSit Basic",
+            "model": "CSB2025",
+            "weight": 1.8,
+            "color": "navy",
+            "mainMaterial": "Aluminum/Polyester",
+            "madeIn": "China"
+          }
+        ],
+        "ratings": 4.3,
+        "reviewsCount": 27,
+        "tags": ["chair", "camping", "foldable"],
+        "isFeatured": false,
+        "dateAdded": "2025-07-20"
+      }
+
+]
+
+
