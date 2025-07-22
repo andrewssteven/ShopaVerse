@@ -122,8 +122,8 @@ const Footer = () => {
             <div>
                 <p className='uppercase mb-2'>payment methods</p>
                 <div className='flex gap-4'>
-                <img src="/src/assets/icons8-stripe-50.png" alt="" className='h-10 w-10 ' />
-                <img src="/src/assets/icons8-visa-50.png" alt="" className='h-10 w-10 ' />
+                <img src="/public/images/icons8-stripe-50.png" alt="" className='h-10 w-10 ' />
+                <img src="/public/images/icons8-visa-50.png" alt="" className='h-10 w-10 ' />
                 </div>
 
             </div>

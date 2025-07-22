@@ -18,35 +18,35 @@ const Hompage = () => {
       <Navbar/>
       <section className='grid grid-cols-2 md:grid-cols-4 gap-3 mx-2 md:mx-4 text-sm'>
         <div className='rounded-md cursor-pointer col-span-2 md:row-span-2 relative'>
-          <img src="/src/assets/Xiaomi 15 Ultra_ A Leap into the Future of….jpg" alt="" className='w-full h-114 object-cover object-center rounded-md ' />
+          <img src="/public/images/Xiaomi 15 Ultra_ A Leap into the Future of….jpg" alt="" className='w-full h-114 object-cover object-center rounded-md ' />
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Hot Deals Now <span className='text-red-800'>45% off</span></p>
           </div>
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="src/assets/f704951f-7f72-42a9-beb8-22994dbaba2f.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
+          <img src="/public/images/f704951f-7f72-42a9-beb8-22994dbaba2f.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Exclusive Picks</p>
           </div>
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="src/assets/Experience the wild, magnetic charm of Dior….jpg" alt=""  className='object-cover h-48 md:h-55.5  rounded-md w-full '/>
+          <img src="/public/images/Experience the wild, magnetic charm of Dior….jpg" alt=""  className='object-cover h-48 md:h-55.5  rounded-md w-full '/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Best Sellers</p>
           </div>
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="src/assets/Want to know the secret kitchen appliance that's….jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
+          <img src="/public/images/Want to know the secret kitchen appliance that's….jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Free shipping</p>
           </div>
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="src/assets/Casual Shoes For Men.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
+          <img src="/public/images/Casual Shoes For Men.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Limited Stock</p>
           </div>
