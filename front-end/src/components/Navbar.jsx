@@ -1,19 +1,69 @@
 import React, { useState } from 'react'
 import Button from './Button'
-import { HeartIcon, ListIcon, MagnifyingGlassIcon, ShoppingCartIcon, UserIcon } from '@phosphor-icons/react'
+import { BagIcon, HeartIcon, ListIcon, MagnifyingGlassIcon, ShoppingCartIcon, TelevisionIcon, UserIcon, XCircleIcon } from '@phosphor-icons/react'
 import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
 
     const [cart, setCart] = useState(0);
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);}
 
   return (
-    <nav className='flex justify-between items-center mx-2 md:mx-4 md:p-4 p-3'>
+    <nav className='flex justify-between items-center md:mx-4 md:p-4 py-2 px-3'>
+        
         {/* hamburger for mobile */}
         <div className='flex items-center gap-2'>
-            <ListIcon size={28} weight="light" className='cursor-pointer md:hidden' />
+            <ListIcon size={28} weight="light" className={ 'cursor-pointer md:hidden'} onClick={toggleMenu} />
             <p><span className='text-xl  cursor-pointer '>S</span>hopaVerse</p>
+        </div>
+
+        {/* toggle menu */}
+        <div className={`z-10 fixed inset-0 flex flex-col gap-10 h-full w-[70%] bg-white p-4 md:hidden ${isOpen ? 'block' : 'hidden'}`}>
+            <XCircleIcon size={30} onClick={toggleMenu}/>
+            <div className='flex gap-3 cursor-pointer group '>
+            <BagIcon size={28} weight="light"/>
+            <p className='flex gap-3 group-hover:text-red-500'>Fashion & Style</p>
+            </div>
+
+            <div className='flex gap-3 cursor-pointer group '>
+            <TelevisionIcon size={28} weight="light"/>
+            <p className='flex gap-3 group-hover:text-red-500'>Electronics & Computing</p>
+            </div>
+
+            <div className='flex gap-3 cursor-pointer group '>
+            <img src="https://img.icons8.com/?size=100&id=poofZ8KYLKLi&format=png&color=000000" alt="" className='h-7.5 w-7.5'/>
+            <p className='flex gap-3 group-hover:text-red-500'>Home Appliances</p>
+            </div>
+
+            <div className='flex gap-3 cursor-pointer group '>
+            <img src="https://img.icons8.com/?size=100&id=196&format=png&color=000000" alt="" className='h-7.5 w-7.5'/>
+            <p className='flex gap-3 group-hover:text-red-500'>Sports and Outdoors</p>
+            </div>
+
+            <div className='flex gap-3 cursor-pointer group '>
+            <img src="https://img.icons8.com/?size=100&id=65983&format=png&color=000000" alt="" className='h-7.5 w-7.5'/>
+            <p className='flex gap-3 group-hover:text-red-500'>Phones & Tablets</p>
+            </div>
+
+            <div className='flex gap-3 cursor-pointer group '>
+            <img src="https://img.icons8.com/?size=100&id=MyV06oafbDPL&format=png&color=000000" alt="" className='h-7.5 w-7.5'/>
+            <p className='flex gap-3 group-hover:text-red-500'>Heath and Beauty</p>
+            </div>
+
+            <div className='flex gap-3 cursor-pointer group '>
+            <img src="https://img.icons8.com/?size=100&id=12023&format=png&color=000000" alt="" className='h-7.5 w-7.5'/>
+            <p className='flex gap-3 group-hover:text-red-500'>New!</p>
+            </div>
+
+            <div className='flex gap-3 cursor-pointer group '>
+            <img src="https://img.icons8.com/?size=100&id=6703&format=png&color=000000" alt="" className='h-7.5 w-7.5'/>
+            <p className='flex gap-3 group-hover:text-red-500'>Flash Sales</p>
+            </div>
+
         </div>
 
         {/* search bar */}
