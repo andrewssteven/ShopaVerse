@@ -25,28 +25,28 @@ const Hompage = () => {
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="/src/assets/f704951f-7f72-42a9-beb8-22994dbaba2f.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
+          <img src="src/assets/f704951f-7f72-42a9-beb8-22994dbaba2f.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Exclusive Picks</p>
           </div>
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="/src/assets/Experience the wild, magnetic charm of Dior….jpg" alt=""  className='object-cover h-48 md:h-55.5  rounded-md w-full '/>
+          <img src="src/assets/Experience the wild, magnetic charm of Dior….jpg" alt=""  className='object-cover h-48 md:h-55.5  rounded-md w-full '/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Best Sellers</p>
           </div>
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="/src/assets/Want to know the secret kitchen appliance that's….jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
+          <img src="src/assets/Want to know the secret kitchen appliance that's….jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Free shipping</p>
           </div>
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="/src/assets/Casual Shoes For Men.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
+          <img src="src/assets/Casual Shoes For Men.jpg" alt="" className='object-cover h-48 md:h-55.5  rounded-md w-full'/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Limited Stock</p>
           </div>

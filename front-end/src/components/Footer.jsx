@@ -5,12 +5,12 @@ import Button from './Button'
 const Footer = () => {
   return (
     <footer>
-        <section className='w-full text-white md:80 grid grid-cols-1 md:flex md:gap-50 p-4 space-y-8 md:px-20 bg-gray-800  '>
+        <section className='w-full text-white md:h-40 grid grid-cols-1 md:flex md:gap-50 p-4 space-y-8 md:px-20 bg-neutral-700'> 
             {/* right side, Logo and name */}
             <h1><span>s</span>hopaVerse</h1>
 
             {/* left side, 2 sections newsletter and download information */}
-            <div className='grid grid-cols-1 md:grid-cols-2 md:gap-3 space-y-6 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 md:gap-13 space-y-6 '>
                 <div className='space-y-2 px-3'>
                    <p className='uppercase'>new to shopaverse?</p>
                    <p>Subcribe to our newsletter to get updates on our latest offers!</p>
@@ -18,30 +18,30 @@ const Footer = () => {
                     <div className='flex gap-3'>
                         <div className='flex items-center gap-2 bg-white rounded-md p-2'>
                             <EnvelopeIcon  size={23} className='text-zinc-600 '/>
-                            <input type="text" placeholder='Enter E-mail Address' className='outline-0 placeholder-gray-500' />
+                            <input type="text" placeholder='Enter E-mail Address' className=' caret-gray-500 outline-0 text-black placeholder-gray-500' />
                         </div>
                         <Button text={'Subcribe'} className={'text-white rounded-md'}/>
                     </div>
 
-                    <div className='flex gap-3 items-center mt-4 '>
+                    {/* <div className='flex gap-3 items-center mt-4 '>
                         <input type="checkbox" className='outline-0 border-2 text-amber-200  border-zinc-400 '/>
                         <div>
                         <p>I agree to jumia's Privacy and cookie Policy. You can unsucribe from newsletters at any time</p>
                         <p className='text-amber-100 text-sm '>I accept the Legal Terms</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className='flex flex-col gap-4 space-y- px-3'>
+                <div className='flex flex-col gap-4  px-3'>
                     <div className='flex gap-3'>
-                        <div><span>S</span>hopaVerse</div>
+                        {/* <div><span>S</span>hopaVerse</div> */}
                         <div className='space-y-1 '>
                             <p className='uppercase text-white '>download shopaverse free app</p>
                             <p>Get access to exclusive offers!</p>
                         </div>
                     </div>
 
-                    <div className='flex gap-4'>
+                    <div className='flex md:gap-14'>
                         <div className='flex items-center hover:text-red-600 cursor-pointer  gap-2'>
                             <AppStoreLogoIcon size={25}/>
                             <div>
@@ -63,7 +63,7 @@ const Footer = () => {
         </section>
 
         {/* main footer section */}
-        <section className='w-full bg-gray-900 text-sm space-y-4 md:gap-10 grid grid-cols-2 md:grid-cols-4  text-white p-4 md:px-20'>
+        <section className='w-full bg-black/90 text-sm space-y-4 md:gap-10 grid grid-cols-2 md:grid-cols-4  text-white p-4 md:px-20'>
             {/* footer side 1 */}
             <div className='space-y-6 '>
                 {/* help section */}
@@ -121,8 +121,9 @@ const Footer = () => {
             {/* payments */}
             <div>
                 <p className='uppercase mb-2'>payment methods</p>
-                <div>
-                <StripeLogoIcon/>
+                <div className='flex gap-4'>
+                <img src="/src/assets/icons8-stripe-50.png" alt="" className='h-10 w-10 ' />
+                <img src="/src/assets/icons8-visa-50.png" alt="" className='h-10 w-10 ' />
                 </div>
 
             </div>

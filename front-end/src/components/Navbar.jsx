@@ -18,7 +18,9 @@ const Navbar = () => {
         {/* hamburger for mobile */}
         <div className='flex items-center gap-2'>
             <ListIcon size={28} weight="light" className={ 'cursor-pointer md:hidden'} onClick={toggleMenu} />
+            <Link to={'/'}>
             <p><span className='text-xl  cursor-pointer '>S</span>hopaVerse</p>
+            </Link>
         </div>
 
         {/* toggle menu */}
