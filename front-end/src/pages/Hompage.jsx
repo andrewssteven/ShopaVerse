@@ -32,7 +32,7 @@ const Hompage = () => {
         </div>
 
         <div className='rounded-md cursor-pointer relative'>
-          <img src="/public/images/Experience the wild, magnetic charm of Dior….jpg" alt=""  className='object-cover h-48 md:h-55.5  rounded-md w-full '/>
+          <img src="/images/Experience the wild, magnetic charm of Dior….jpg" alt=""  className='object-cover h-48 md:h-55.5  rounded-md w-full '/>
           <div className='absolute bottom-0 left-0 rounded-bl-sm bg-amber-500 text-white font-semibold px-2'>
             <p>Best Sellers</p>
           </div>
