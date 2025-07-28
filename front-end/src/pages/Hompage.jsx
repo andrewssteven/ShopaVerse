@@ -3,6 +3,7 @@ import { products } from '../products'
 import Navbar from '../components/Navbar'
 import ProductCard from '../components/ProductCard'
 import Footer from '../components/Footer'
+import { Link } from 'react-router-dom'
 
 const Hompage = () => {
 
@@ -14,7 +15,7 @@ const Hompage = () => {
  const sportsOutdoors = products.filter(product => product.category === "Sports & Outdoors").sort(() => 0.5 - Math.random()).slice(0, 6);
 
   return (
-    <div className='space-y-2'>
+    <div className='space-y-2 md:mt-20 mt-12'>
       <Navbar/>
       <section className='grid grid-cols-2 md:grid-cols-4 gap-3 mx-2 md:mx-4 text-sm'>
         <div className='rounded-md cursor-pointer col-span-2 md:row-span-2 relative'>
@@ -56,31 +57,43 @@ const Hompage = () => {
       {/* Browse category section */}
       <section className='space-y-2 hidden md:block'>
         <h2 className='text-2xl font-semibold mx-4'>Browse by Category</h2>
-        <div className='grid grid-cols-4 gap-4 mx-2 md:mx-8'>
+        <div className='grid grid-cols-3 lg:grid-cols-4 gap-4 mx-2 md:mx-8'>
 
+          <Link to={'/fashionstyle'}>
           <div className='cursor-pointer rounded-full border-2 border-gray-700 p-3 h-48 lg:w-70 grid place-items-center bg-[url("https://images.unsplash.com/photo-1608680582325-9f701aef1bb0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFzaGlvbiUyMGFuZCUyMHN0eWxlcyUyMGl0ZW1zfGVufDB8fDB8fHww")] bg-cover bg-center'>
             <p className='font-semibold text-white '>Fashion & Style</p>
           </div>
+          </Link>
 
+          <Link to={'/homeappliancies'}>
           <div className='cursor-pointer border-2 border-gray-700 rounded-full p-3 h-48 lg:w-70 grid place-items-center bg-[url("https://media.istockphoto.com/id/1174598609/photo/set-of-contemporary-house-appliances-isolated-on-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=HFerD8kycf4v95US1-_wL5sptuBTiaoDNLMT29e_L88=")] bg-cover bg-center'>
             <p className='font-semibold text-white '>Home Appliances</p>
           </div>
+          </Link>
 
+          <Link to={'/phonestablets'}>
           <div className='cursor-pointer border-2 border-gray-700 rounded-full p-3 h-48 lg:w-70 grid place-items-center bg-[url("https://images.unsplash.com/photo-1591815421748-5d50ffaf1ace?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHBob25lcyUyMGFuZCUyMHRhYmxldHN8ZW58MHx8MHx8fDA%3D")] bg-cover bg-center'>
             <p className='font-semibold text-white '>Phones & Tablets</p>
           </div>
+          </Link>
 
+          <Link to={'/healthbeauty'}>
           <div className='cursor-pointer border-2 border-gray-700 rounded-full p-3 h-48 lg:w-70 grid place-items-center bg-[url("https://images.unsplash.com/photo-1631730486784-5456119f69ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGVhbHRoJTIwYW5kJTIwYmVhdXR5fGVufDB8fDB8fHww")] bg-cover bg-center'>
             <p className='font-semibold text-white '>Health & Beauty</p>
           </div>
+          </Link>
 
+          <Link to={'/electronicscomputing'}>
           <div className='cursor-pointer border-2 border-gray-700 rounded-full p-3 h-48 lg:w-70 grid place-items-center bg-[url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLXViOhB2Ajoewps5NLT-2GkvlvwhFcw0C1A&s")] bg-cover bg-center'>
             <p className='font-semibold text-white '>Electronics & Computing</p>
           </div>
+          </Link>
 
-          <div className='cursor-pointer border-2 border-gray-700 rounded-full p-3 h-48 w-70 grid place-items-center bg-[url("https://media.istockphoto.com/id/949190756/photo/various-sport-equipments-on-grass.webp?a=1&b=1&s=612x612&w=0&k=20&c=l4jxu6unLiyRzE9lhT5xTobPRshiywDPrz33n-RqqUI=")] bg-cover bg-center'>
+          <Link to={'/sportsoutdoors'}>
+          <div className='cursor-pointer border-2 border-gray-700 rounded-full p-3 h-48 lg:w-70 grid place-items-center bg-[url("https://media.istockphoto.com/id/949190756/photo/various-sport-equipments-on-grass.webp?a=1&b=1&s=612x612&w=0&k=20&c=l4jxu6unLiyRzE9lhT5xTobPRshiywDPrz33n-RqqUI=")] bg-cover bg-center'>
             <p className='font-semibold text-white '>Sports & Outdoors</p> 
           </div>
+          </Link>
         </div>
       </section>
 
