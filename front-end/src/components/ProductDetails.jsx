@@ -47,8 +47,7 @@ const ProductDetails = ({ products }) => {
             <p className="font-semibold text-xl ">{product.name}</p>
             <p className="text-sm text-neutral-500">Brand: {product.brand}</p>
             <p className="text-sm text-neutral-500">Stock: {product.stock}</p>
-            <div></div>
-
+   
             {/* color  */}
             <div className="flex flex-col space-y-1">
               <p>color</p>
